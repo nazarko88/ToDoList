@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+label, input {
+    display: inline-block;
+    text-align : center;
+    width: 40%;
+    margin: 10px;
+    font-size: x-large;
+}
+
+input[type=number] {
+    min: 1;
+    max: 10;
+}
+
+input[type=hidden] {
+    width: 0px;
+}
+
+.not_hidden {
+    width: 80%;
+}
+
+form.in{
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 40vw;
+    display: inline-block;
+}
+
+table {
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 80vh;
+}
+th {
+    font-size: x-large;
+}
+
+h1 {
+    display: block;
+}
+
+.error {
+    color: #FF0000;
+}
+
+tr {
+    text-align: center;
+    border: 1px solid lightblue;
+}
